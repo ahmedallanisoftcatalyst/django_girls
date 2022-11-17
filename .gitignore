@@ -1,0 +1,4 @@
+#Virtual Env
+virtual_test/
+db.sqlite3
+.vscode/
