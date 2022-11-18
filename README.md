@@ -2,10 +2,10 @@
 
 blog/urls contains the urls for the project, being
 
-1 index
-2 detail
-3 new-form
-4 update
+* index
+* detail
+* new-form
+* update
 
 If running this project on local machine, then uncomment the STATICFILES_DIRS in the djangogirls/settings.py file.
 
