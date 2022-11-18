@@ -8,6 +8,8 @@ from django.conf import settings
 
 class Post(models.Model):
     
+    """Model with name getting from loged in user, title of the post displayed as identifier, text of post, created at data which is taken at creation time automatically and published at date, which is taken when publish method is called. """
+    
     name = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField('Title of post',max_length=125)
     text = models.TextField('Enter the text here')
