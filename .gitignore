@@ -2,3 +2,7 @@
 virtual_test/
 db.sqlite3
 .vscode/
+venv
+*.pyc
+__pycache__/
+static
